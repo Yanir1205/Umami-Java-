@@ -1,0 +1,116 @@
+/* **** BUTTONS **** */
+
+button {
+  font-family: raleway, lato, 'sans-serif';
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid $clr4;
+  border-radius: 2px;
+  font-size: 1rem;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.btn-md {
+  width: 20%;
+}
+
+.btn-sm-md {
+  width: 45%;
+}
+
+.btn-lg {
+  width: 100%;
+}
+.btn-action {
+  background-color: $clr3;
+  color: $clr9;
+}
+.close-btn {
+  color: rgb(0, 0, 0);
+  display: flex;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-main {
+  padding: 5px;
+  border: 1px solid $clr4;
+  background-color: $clr4;
+  color: $clr2;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-main:hover {
+  background-color: $clr6;
+  color: $clr3;
+}
+
+.btn-yellow {
+  border: 1px solid $clr4;
+  background-color: $clr4;
+  color: $clr2;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-yellow:hover {
+  background-color: $clr1;
+  color: $clr3;
+}
+
+.btn-red {
+  border: 1px solid $crd3;
+  background-color: $crd3;
+  color: $clr2;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  // padding: 5px;
+  padding: 2px 0px;
+  font-family: raleway-bold;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+}
+
+.btn-red:hover {
+  border: 1px solid $crd4;
+  background-color: $crd4;
+  color: $clr2;
+}
+
+.btn-round {
+  height: fit-content;
+  padding: 0px 5px 2px 5px;
+  border-radius: 50%;
+  border: 1px solid $clr4;
+  background: $clr4;
+  color: $clr2;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background: $clr2;
+    color: $clr4;
+  }
+}
+
+.btn-round-sm {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border: 1px solid $clr4;
+  background: $clr4;
+  color: $clr2;
+  cursor: pointer;
+
+  &:hover {
+    background: $clr2;
+    color: $clr4;
+  }
+}

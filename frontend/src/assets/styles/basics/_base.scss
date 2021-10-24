@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+  min-height: 100vh;
+  font-family: raleway, lato, 'sans-serif';
+  color: clr3;
+  font-size: 16px;
+  line-height: 1.6;
+  // background-color: $clr1;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+  margin-top: 0;
+  font-weight: normal;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+h1 {
+  font-size: rem(60px);
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+}
+
+h3 {
+  font-family: caviar_dreams_bold, sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+p {
+  margin: 0 0 rem(12px);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.cursor {
+  cursor: pointer;
+}
